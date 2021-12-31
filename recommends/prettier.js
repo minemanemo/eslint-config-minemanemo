@@ -21,13 +21,16 @@ module.exports = {
 
         // TODO:
         // 객체의 키의 따옴표 사용 종류 (as-needed|consistent|preserve)
-        quoteProps: 'consistent',
+        // quoteProps: 'consistent',
+        quoteProps: 'as-needed',
 
         // JSX 문법 내부에서 작은 따옴표 사용 여부
         jsxSingleQuote: false,
 
+        // TODO:
         // 후행 쉼표 사용 여부
-        trailingComma: 'all',
+        // trailingComma: 'all',
+        trailingComma: 'es5',
 
         // 리터럴 객체의 대괄호 사이 공백 사용 여부
         bracketSpacing: true,
