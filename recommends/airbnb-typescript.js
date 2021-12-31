@@ -7,4 +7,4 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': 'off',
     'react/display-name': 'off',
   },
-}
+};

@@ -10,4 +10,4 @@ module.exports = {
     es6: true,
   },
   rules: {},
-}
+};

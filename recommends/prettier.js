@@ -14,7 +14,7 @@ module.exports = {
         tabWidth: 2,
 
         // 세미콜론 사용 여부
-        semi: false,
+        semi: true,
 
         // 작은 따옴표 사용
         singleQuote: true,
@@ -43,7 +43,7 @@ module.exports = {
       },
     ],
   },
-}
+};
 
 // 0 npm 배포 -> setting zero... (보안팀이나)
 // 1 사내 nexus -> npm re
