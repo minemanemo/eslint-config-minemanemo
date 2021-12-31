@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@next/eslint-plugin-next'],
+  extends: ['plugin:@next/next/recommended'],
 }
