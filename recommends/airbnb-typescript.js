@@ -18,7 +18,7 @@ module.exports = {
     // 'airbnb',
     'airbnb-typescript',
     'airbnb/hooks',
-    // 'plugin:import/recommended',
+    'plugin:import/recommended',
     // 'plugin:import/typescript',
   ],
   rules: {
