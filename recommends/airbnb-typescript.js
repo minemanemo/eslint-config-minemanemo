@@ -15,7 +15,7 @@ module.exports = {
   extends: [
     // 'airbnb-base',
     // 'airbnb-typescript/base',
-    'airbnb',
+    // 'airbnb',
     'airbnb-typescript',
     'airbnb/hooks',
     'plugin:import/recommended',
