@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb-typescript', 'airbnb/hooks'],
+  extends: ['airbnb-base', 'airbnb-typescript/base'],
   rules: {
     'import/no-extraneous-dependencies': 'off',
     // '@typescript-eslint/no-floating-promises': 'off',
