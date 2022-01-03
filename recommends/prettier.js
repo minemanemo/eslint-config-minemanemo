@@ -19,10 +19,8 @@ module.exports = {
         // 작은 따옴표 사용
         singleQuote: true,
 
-        // TODO:
         // 객체의 키의 따옴표 사용 종류 (as-needed|consistent|preserve)
-        // quoteProps: 'consistent',
-        quoteProps: 'as-needed',
+        quoteProps: 'consistent',
 
         // JSX 문법 내부에서 작은 따옴표 사용 여부
         jsxSingleQuote: false,
@@ -47,7 +45,3 @@ module.exports = {
     ],
   },
 };
-
-// 0 npm 배포 -> setting zero... (보안팀이나)
-// 1 사내 nexus -> npm re
-// 2 지금처럼 파일 -> script 배포할때
