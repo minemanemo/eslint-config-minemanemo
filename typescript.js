@@ -5,6 +5,9 @@ module.exports = {
     './recommends/prettier',
     './recommends/next',
   ].map((e) => require.resolve(e)),
+  parserOptions: {
+    project: './tsconfig.json',
+  },
   env: {
     node: true,
     browser: true,
