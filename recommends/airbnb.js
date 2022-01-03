@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb-base'],
+  extends: ['airbnb', 'plugin:import/recommended'],
   rules: {
     // 'import/no-extraneous-dependencies': 'off',
     // 'react/display-name': 'off',
