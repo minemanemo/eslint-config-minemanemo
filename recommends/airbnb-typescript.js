@@ -18,12 +18,16 @@ module.exports = {
     // 'airbnb',
     'airbnb-typescript',
     'airbnb/hooks',
+
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
+
+    'plugin:import/recommended',
+    'plugin:import/typescript',
   ],
   rules: {
-    // eslint-plugin-import
-    'import/no-extraneous-dependencies': 'off',
-
-    //
+    // typescript-eslint
     // '@typescript-eslint/no-floating-promises': 'off',
     // '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
